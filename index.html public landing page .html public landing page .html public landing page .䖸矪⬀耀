@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Miutric | Smart AI Brokerage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      background: #0b0c10;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 2.8em;
+      background: linear-gradient(90deg, #00c9ff, #92fe9d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #00c9ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      padding: 10px 20px;
+      background: #0ff;
+      border: none;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .content-section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .live-prices {
+      margin: 40px 0;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      min-height: 400px;
+    }
+    .reviews {
+      display: grid;
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .review-card {
+      background: #1c1f26;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.2);
+    }
+    .review-card img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+    .review-card h4 {
+      margin: 10px 0 5px;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #111;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Miutric</h1>
+    <p>Empowering Smarter, Safer Investing Since 2017</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#market">Markets</a>
+      <a href="#signup">Start Now</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Let AI Manage Your Trades with Confidence</h2>
+    <p>AI Miutric is a smart trading platform built for both new and expert investors. With intelligent risk management tools, live market insights, and a fully customizable dashboard, our platform puts you in control while AI handles the heavy lifting.</p>
+    <button class="btn" onclick="location.href='/signup.html'">Get Started</button>
+  </div>
+
+  <section id="about" class="content-section">
+    <h2>Our Story</h2>
+    <p>Founded in 2017, AI Miutric was created with a vision to revolutionize how individuals trade. Our platform blends cutting-edge artificial intelligence with secure and transparent systems to help users trade smarter. Whether you're managing a few hundred or thousands in crypto assets, we simplify the process while maximizing security and opportunity.</p>
+  </section>
+
+  <section id="market" class="content-section live-prices">
+    <h2>Live Market Prices</h2>
+    <iframe src="https://widget.coinlib.io/widget?type=full_v2&theme=dark&cnt=5&pref_coin_id=1505&graph=yes" width="100%" height="500"></iframe>
+    <br /><br />
+    <iframe src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_stock_chart&symbol=NASDAQ%3AAAPL&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=[]&theme=Dark&style=1&timezone=Etc%2FUTC&withdateranges=1&hidevolume=1&hideideas=1&referral_id=13893" height="500"></iframe>
+  </section>
+
+  <section class="content-section">
+    <h2>User Reviews</h2>
+    <div class="reviews">
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="User">
+        <h4>John M., London</h4>
+        <p>“AI Miutric has changed the way I manage risk. The AI engine performs better than I expected.”</p>
+      </div>
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="User">
+        <h4>Sarah B., New York</h4>
+        <p>“I love the dashboard and control I have. Depositing with PayPal was super simple.”</p>
+      </div>
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/28.jpg" alt="User">
+        <h4>David K., Berlin</h4>
+        <p>“Accurate trade timings and easy-to-understand profit tracking. Highly recommended.”</p>
+      </div>
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/77.jpg" alt="User">
+        <h4>Lana R., Toronto</h4>
+        <p>“It feels secure. The customer service and admin features are excellent.”</p>
+      </div>
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="User">
+        <h4>Chris A., Sydney</h4>
+        <p>“AI Miutric gives me peace of mind. I can focus on other tasks while it trades.”</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <h2>Legal Info</h2>
+    <p>AI Miutric operates under virtual investment and advisory standards. While currently a global platform, we follow strict data and compliance policies. Registered entity documents (illustrative):</p>
+    <ul>
+      <li>UK Reg No: 12345678 | HMRC Verified</li>
+      <li>USA EIN: 98-7654321 | SEC/FinCEN Compliant</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2017–2025 AI Miutric. All rights reserved.
+  </footer>
+</body>
+</html>
